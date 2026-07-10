@@ -200,3 +200,35 @@ div #btm-margin {
 }
 
 /* end spot section style */
+
+
+/* start footer section style */
+
+footer{
+    background-color: #0D1B2A;
+    padding: 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-copy-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+
+    color: rgb(94, 90, 90);
+}
+
+.privacy-service ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.privacy-service ul li{
+    list-style: none;
+}
