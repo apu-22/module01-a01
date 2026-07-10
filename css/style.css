@@ -25,12 +25,24 @@
   color: black;
 }
 
-.cmn-btn{
-    background-color: #1D4ED8;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 25px;
-    color: white;
+.cmn-btn {
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 25px;
+  color: white;
 }
 
 /* end navbar section's style */
+
+/* start banner(hero) section */
+.hero {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url(../assets/banner.jpg);
+    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
