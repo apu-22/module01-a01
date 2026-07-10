@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* start navbar section style */
+.navbar-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-section .nav-content ul {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-section .nav-content ul li {
+  list-style: none;
+}
+
+.navbar-section .nav-content ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.cmn-btn{
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+}
+
+/* end navbar section's style */
