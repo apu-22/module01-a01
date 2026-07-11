@@ -221,6 +221,22 @@ footer {
   margin-bottom: 30px;
 }
 
+.social-icon{
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+}
+
+.social-icon div ul li{
+  margin-bottom: 55px;
+  margin-top: 10px;
+  color: rgb(95, 91, 91);
+}
+
+.social-icon div a img{
+  margin-bottom: 20px;
+}
+
 .footer-copy-right {
   display: flex;
   justify-content: space-between;
